@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "tralava",
+  "version": "${version}",
+  "name": "TransparentLava",
+  "description": "adds transparency to lava",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tralava/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [],
+    "client": ["mod.linguardium.tralava.Client"],
+    "server": []
+  },
+  "mixins": [
+    "tralava.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
